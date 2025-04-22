@@ -1,0 +1,10 @@
+[project]
+name = "ghostscale-gui"
+version = "0.1.0"
+description = "Kivy-based frontend for Ghostscale"
+authors = [{ name = "Dierk Zehe", email = "mgcmshr@gmail.com" }]
+dependencies = ["kivy", "pyyaml"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
